@@ -1,0 +1,25 @@
+.mini   {
+        background-color: rgba(0, 0, 0, 0.7);
+
+        &-tab   {
+            padding: 3rem;
+            
+            & input {
+                margin-bottom: 4rem;
+                width: 90%;
+                padding: 0.4rem;
+                background-color: #222222;
+                border: none;
+                border-bottom: 1px solid #f3f3f3;
+                border-radius: 10px;
+            }
+
+            & > p   {
+                margin-bottom: 1.5rem;
+                background-color: gray;
+                color: #f3f3f3;
+                text-align: center;
+                padding: 0.4rem;
+            }
+        }
+    }

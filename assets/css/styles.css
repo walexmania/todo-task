@@ -1,0 +1,81 @@
+@import 'reset';
+
+*,
+body,
+html {
+    padding: 0;
+    margin: 0;
+}
+
+body {}
+
+#container {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    border: 2px solid wheat;
+    height: 100vh;
+}
+
+.sidebar {
+    border: 2px solid red;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.mini {
+    padding: 3rem;
+}
+.mini input {
+    margin-bottom: 4rem;
+    width: 90%;
+    padding: 0.4rem;
+    background-color: #222222;
+}
+.mini > p{
+    margin-bottom: 1.5rem;
+    background-color: gray;
+    color: #f3f3f3;
+    text-align: center;
+    padding: 0.4rem;
+}
+
+
+.main-bar {
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.main-bar input{
+    width: 60%;
+    height: 1.5rem;
+    background: gray;
+    color: #f8f8f8;
+}
+.main-bar input::placeholder   {
+    color: #c3c3c3;
+    padding: 0.2rem;
+}
+
+
+/* .main-bar {
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.main-bar > .create-todo{
+    margin: 50vh;
+    justify-items: center;
+}
+
+.main-bar input {
+    margin-top: 30%;
+    margin-left: 20%;
+    width: 60%;
+} */
