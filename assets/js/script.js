@@ -2,7 +2,7 @@
 
 var todoTask = document.querySelector("ul");
 var createTodo = document.querySelector(".createTodo");
-var node = document.createElement("LI")
+var node = document.createElement("li   ")
 
 
 
